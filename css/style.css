@@ -28,7 +28,6 @@ h1 {
     border-radius: 30px;
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
     font-size: 20px;
 }
 
@@ -82,7 +81,6 @@ h1 {
     border-radius: 30px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
     font-size: 25px;
 }
 
@@ -92,7 +90,6 @@ h1 {
     border-radius: 30px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
     font-size: 25px;
 }
 /* /First Section*/
@@ -159,7 +156,6 @@ h1 {
     border-radius: 30px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
     font-size: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -184,21 +180,38 @@ section {
     color: #3160e0;
     font-family: Arial, Helvetica, sans-serif;
     height: 500px;
-    width: 28%;
+    width: 100%;
 }
 
 .box-green {
-    background-color: #2ebaa7;
-    border: 3px dashed #ffffff;
     height: 500px;
     width: 18%;
     list-style: none;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+b {
+    color: #3160e0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 /* /6th Section */
 
 /* 7th section */
 .row-footer {
-    background-color: #00bd78;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -212,20 +225,12 @@ section {
     border-bottom: 3px solid #cacaca;
 }
 /* /7th section */
-
-
-.logo {
-    background-color: #cb4646;
-    border: 3px dashed #000000;
+.bottone-registrati {
+    background-color: #3160e0;
     padding: 10px;
-}
-
-.bottone {
-    background-color: #cb4646;
-    border: 3px dashed #000000;
-    padding: 10px;
-}
-
-li {
-    list-style: none;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
